@@ -1,6 +1,16 @@
 /* Trees Image - Pexels: https://www.pexels.com/photo/photo-of-trees-in-forest-3801030/ */
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap');
 
+* {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+[contenteditable] {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
 html {
   box-sizing: border-box;
 }
