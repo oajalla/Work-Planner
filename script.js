@@ -176,6 +176,7 @@ function rebuildArrays(){
 function drag(e) {
   draggedItem = e.target;
   dragging = true;
+  $( draggedItem ).draggable();
 }
 
 // When Items Enters Column Area
